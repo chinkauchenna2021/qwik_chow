@@ -1,0 +1,14 @@
+{
+  "name": "firestore-import-user",
+  "version": "1.0.0",
+  "description": "Import User",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase-admin": "^10.0.1"
+  }
+}

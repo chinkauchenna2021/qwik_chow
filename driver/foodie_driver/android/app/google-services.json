@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "595686676766",
+    "firebase_url": "https://qwik-chow-default-rtdb.firebaseio.com",
+    "project_id": "qwik-chow",
+    "storage_bucket": "qwik-chow.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595686676766:android:cddce52dfa7e89d1c2510f",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595686676766-k1dvup0f7gfu3vhnat9tbb9o10s5q3ga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg7yW52Hnaalx6fwExz6U8Emko5WFN5AE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "595686676766-k1dvup0f7gfu3vhnat9tbb9o10s5q3ga.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "595686676766-9t22re307b5ogubr9q75jp46qfelhpaq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.foodieDriver"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595686676766:android:362a5c0e4ae9d9f2c2510f",
+        "android_client_info": {
+          "package_name": "com.example.foodie_driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595686676766-k1dvup0f7gfu3vhnat9tbb9o10s5q3ga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg7yW52Hnaalx6fwExz6U8Emko5WFN5AE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "595686676766-k1dvup0f7gfu3vhnat9tbb9o10s5q3ga.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "595686676766-9t22re307b5ogubr9q75jp46qfelhpaq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.foodieDriver"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
