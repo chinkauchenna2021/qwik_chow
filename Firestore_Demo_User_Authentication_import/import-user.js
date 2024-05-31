@@ -1,11 +1,11 @@
 let admin = require("firebase-admin");
 // config
-let email = "";
-let uid = "";
+let email = "larnton@gmail.com";
+let uid = "5108babc-bf35-44d5-a9ba-de08badfa80a";
 let serviceAccountData = require("./serviceAccountKey.json");
 let adminConfig = {
     credential: admin.credential.cert(serviceAccountData),
-    databaseURL: "https://<db_name>.firebaseio.com",
+    databaseURL: "https://qwik-chow-default-rtdb.firebaseio.com/",
 };
 let newUserOverrides=[];
 let users_update_list=[{'email':'customer02@gromart.com','uid':'eMIxZi024oXntpRxo7Sz895n5E93','password':'12345678'},{'email':'customer03@gromart.com','uid':'ncxVDiCldHW3bnQU1bDCJVjc2B42','password':'123456'},{'email':'store03@gromart.com','uid':'HthbaL49TgRkf2ZtPLhwSlBYjGI2','password':'123456'},{'email':'store04@gromart.com','uid':'EmFlJfSWqDQLjYsOTPF2Zfusx3w1','password':'123456'},{'email':'driver01@gromart.com','uid':'EJ4N3Nn5ZxXnscQkVjLKH1OF9Qs2','password':'123456'}];

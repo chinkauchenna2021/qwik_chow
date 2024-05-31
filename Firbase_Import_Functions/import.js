@@ -25,7 +25,7 @@ if (geoArray) {
 // You should replace databaseURL with your own
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "DATABASE_URL"
+  databaseURL: "https://qwik-chow-default-rtdb.firebaseio.com/"
 });
 
 const db = admin.firestore();

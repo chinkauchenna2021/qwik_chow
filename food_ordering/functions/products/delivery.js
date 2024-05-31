@@ -1,6 +1,6 @@
 const functions = require('firebase-functions');
 const admin = require ("firebase-admin");
-// admin.initializeApp();
+admin.initializeApp();
 const firestore = admin.firestore();
 
 /*
@@ -58,7 +58,7 @@ exports.dispatch = functions.firestore
                  kDistanceRadiusForDispatchInMiles = parseInt(driverNearByData.driverRadios);
             }
             if(driverNearByData.singleOrderReceive !== undefined){
-                 singleOrderReceive = driverNearByData.singleOrderReceive;
+                singleOrderReceive = driverNearByData.singleOrderReceive;
             }
         }
 
@@ -124,6 +124,7 @@ exports.dispatch = functions.firestore
                                                         if(newOrderData2.status === "Driver Pending"){
                                                             // We changed the ordering method to assign multiple orders to single driver so now find orderRequestData for current driver
                                                             firestore.collection("users").doc(driver.id).get().then((querySnapshot) => {
+                                                                console.log("Check if driver is accepting the order")
                                                                 var driverData = querySnapshot.data();
                                                                 //Now remove current orderId from all assigned order to this driver because they have not accepted current order in time
                                                                 const newOrderRequestData = driverData.orderRequestData.filter(function (oid) {
@@ -140,6 +141,8 @@ exports.dispatch = functions.firestore
                                                                     'rejectedByDrivers': rejectedByDrivers
                                                                 })
                                                                 console.log("Order not accepted by driver #" + driver.id + " for order #" + orderId + " within " + orderAcceptRejectDuration + " seconds, searching for next driver.")
+                                                            }).catch((error)=>{
+                                                              throw new Error("Order Failed "+error)
                                                             })
                                                         }
                                                         return null
@@ -162,9 +165,9 @@ exports.dispatch = functions.firestore
                                     // We changed the ordering method to assign multiple orders to single driver
                                     // We send the order to the driver, by appending orderRequestData to the driver's user model in the users table
                                     var orderRequestData = [];
-                                    if(driver.orderRequestData != undefined){
-                                        if(singleOrderReceive == false){
-                                            if(driver.orderRequestData.length == 0){
+                                    if(driver.orderRequestData !== undefined){
+                                        if(singleOrderReceive === false){
+                                            if(driver.orderRequestData.length === 0){
                                                 orderRequestData.push(orderId);
                                             }else{
                                                 if(driver.orderRequestData.indexOf(orderId) === -1) {

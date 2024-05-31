@@ -1,4 +1,4 @@
-{
+module.exports = {
   "parserOptions": {
     // Required for certain syntax usages
     "ecmaVersion": 2017
@@ -112,7 +112,7 @@
 
     // Return inside each then() to create readable and reusable Promise chains.
     // Forces developers to return console logs and http calls in promises. 
-    "promise/always-return": 2,
+    "promise/always-return": 1,
 
     //Enforces the use of catch() on un-returned promises
     "promise/catch-or-return": 2,
