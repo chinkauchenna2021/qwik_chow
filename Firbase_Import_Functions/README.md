@@ -96,6 +96,7 @@ node import.js FoodieDataSeed/cms_pages.json
 
 node import.js FoodieDataSeed/coupons.json
 
+
 node import.js FoodieDataSeed/currencies.json
 
 node import.js FoodieDataSeed/driver_payouts.json

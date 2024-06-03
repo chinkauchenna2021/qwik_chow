@@ -1,0 +1,199 @@
+{
+    "settings": {
+        "AdminCommission": {
+            "commissionType": "Percent",
+            "isEnabled": true,
+            "fix_commission": 1
+        },
+        "CODSettings": {
+            "isEnabled": true
+        },
+        "ContactUs": {
+            "Address": "Your Address",
+            "Email": "info@yourdomain.com",
+            "Phone": "1234567890"
+        },
+        "DeliveryCharge": {
+            "amount": 0,
+            "vendor_can_modify": false,
+            "minimum_delivery_charges_within_km": 2,
+            "minimum_delivery_charges": 8,
+            "delivery_charges_per_km": 2
+        },
+        "DineinForRestaurant": {
+            "isEnabled": false,
+            "isEnabledForCustomer": false
+        },
+        "DriverNearBy": {
+            "minimumAmountToWithdrawal": "50",
+            "minimumDepositToRideAccept": "0",
+            "driverLocationUpdate": "2",
+            "driverRadios": "5",
+            "mapType": "inappmap",
+            "singleOrderReceive": false,
+            "driverOrderAcceptRejectDuration": 30
+        },
+        "MercadoPago": {
+            "AccessToken": "",
+            "PublicKey": "",
+            "isSandboxEnabled": true,
+            "isEnabled": true
+        },
+        "PaytmSettings": {
+            "PaytmMID": "",
+            "PAYTM_MERCHANT_KEY": "",
+            "isSandboxEnabled": true,
+            "isEnabled": true
+        },
+        "RestaurantNearBy": {
+            "driverRadios": "5000",
+            "radios": "10000"
+        },
+        "Version": {
+            "app_version": "5.4.1",
+            "web_version": "5.4.1"
+        },
+        "WalletSetting": {
+            "isEnabled": false
+        },
+        "applePay": {
+            "merchantId": "Test",
+            "isEnabled": true,
+            "stripeSecret": "test"
+        },
+        "digitalProduct": {
+            "fileSize": "30"
+        },
+        "emailSetting": {
+            "mailMethod": "smtp",
+            "password": "",
+            "port": "465",
+            "host": "",
+            "userName": "username@domain.com",
+            "mailEncryptionType": "ssl",
+            "fromName": "Foodie"
+        },
+        "flutterWave": {
+            "isSandbox": true,
+            "isEnable": true,
+            "encryptionKey": "",
+            "publicKey": "",
+            "secretKey": ""
+        },
+        "footerTemplate": {
+            "footerTemplate": "<section class=\"footer-top padding-y py-5\">\t\n<div class=\"container\">\t\n <div class=\"row\">\n  <aside class=\"col-md-6 footer-about\">\n\t  <article class=\"pb-3\">\n\t\t<div class=\"footer-logo mb-3\">\n\t\t   \n\t\t </div>\n\t<div class=\"footer-info\">\n\t\t <p class=\"text-light\">Somos Dios! Cualquier cosa que necesites en la isla cuenta con nosotros para entregartelo. Tenemos de to! Carne, pescado, agua sin gas, aspirina y hasta putes si estas solo. Pim pam pum. Parlem Catala Que vols? English for you? German alles klar?&nbsp; Al loro tambe parlamo Italiano va fan culo!</p>\t\t\t\t\t\t\n\t <div class=\"d-flex align-items-center footer-social\">\n\t\t <a class=\"btn btn-icon btn-outline-light mr-1 btn-sm fb-icon\" title=\"Facebook\" target=\"_blank\" href=\"#\"><i class=\"feather-facebook\"></i></a>\n\t\t <a class=\"btn btn-icon btn-outline-light mr-1 btn-sm insta-icon\" title=\"Instagram\" target=\"_blank\" href=\"#\"><i class=\"feather-instagram\"></i></a>\n\t\t <a class=\"btn btn-icon btn-outline-light mr-1 btn-sm youtube-icon\" title=\"Youtube\" target=\"_blank\" href=\"#\"><i class=\"feather-youtube\"></i>\n\t\t </a>\n\t\t <a class=\"btn btn-icon btn-outline-light mr-1 btn-sm twitter-icon\" title=\"Twitter\" target=\"_blank\" href=\"#\"><i class=\"feather-twitter\"></i>\n\t\t </a>\n\t  </div>\t\t\t\t\t\n    </div>\n   </article>\t\t\t\n </aside>\n  <aside class=\"col-sm-4 col-md-3 text-white\">\n   <h6 class=\"title\">Servicios Express</h6>\n\t\t<ul class=\"list-unstyled hov_footer\">\n\t\t<li>Soporte</li>\n\t\t<li><a href=\"http://foodieweb.siswebapp.com/contact-us\" class=\"text-light\">Contac</a>tanos</li>\n\t\t<li><a href=\"http://foodieweb.siswebapp.com/terms\" class=\"text-light\">Terminos de us</a>o</li>\t\t\t\t\t\n\t\t<li><a href=\"http://foodieweb.siswebapp.com/page/about-us\" class=\"text-light\">About us</a></li>\n\t\t</ul>\n\t</aside>\n <aside class=\"col-sm-4  col-md-3 text-white\">\n  <h6 class=\"title\">Para usuarios</h6>\n    <ul class=\"list-unstyled hov_footer\">\n      <li><a href=\"http://foodieweb.siswebapp.com/login\" class=\"text-light\">Usuario Login </a></li>\n      <li><a href=\"http://foodieweb.siswebapp.com/signup\" class=\"text-light\">Usuario Regist</a>rar</li>\n      <li><a href=\"http://foodieweb.siswebapp.com/profile\" class=\"text-light\">A</a>justes Cuenta</li>\n    </ul>\n  </aside>\n </div>\n <div class=\"ft-contact-us\">\n <div class=\"row\">\n \t<div class=\"col-md-4\">\n \t\t<div class=\"ft-contact-box\">\n \t\t\t<span class=\"ft-icon\">\n \t\t\t\t<i class=\"feather-mail\"></i>\n \t\t\t</span>\n \t\t\t<h3>&nbsp;e-mail</h3>\n \t\t\t<p>info@foodie.com</p>\n \t\t</div>\n \t</div>\n \t<div class=\"col-md-4\">\n \t\t<div class=\"ft-contact-box\">\n \t\t\t<span class=\"ft-icon\">\n \t\t\t\t<i class=\"feather-phone-call\"></i>\n \t\t\t</span>\n \t\t\t<h3>Contact</h3>\n \t\t\t<p>+1 939778547</p>\n \t\t</div>\n \t</div>\n \t<div class=\"col-md-4\">\n \t\t<div class=\"ft-contact-box\">\n \t\t\t<span class=\"ft-icon\">\n \t\t\t\t<i class=\"feather-search\"></i>\n \t\t\t</span>\n \t\t\t<h3>Donde Estamos</h3>\n \t\t\t<p>Mahon, Menorca Spain 98854</p>\n \t\t</div>\n \t</div>\n </div>\n</div>\n </div>\n </section>\n\n<section class=\"footer-copyright border-top py-3 bg-light\">\t\n <div class=\"container d-flex align-items-center\">\n\t<p class=\"mb-0\">© 2023 NewFood Todos los best food network reservados</p>\n\t<p class=\"text-light mb-0 ml-auto d-flex align-items-center\">\n\t\t<a href=\"#\" class=\"d-block\"><img alt=\"#\" src=\"http://foodieweb.siswebapp.com/img/appstore.png\" height=\"40\"></a>\n\t\t<a href=\"#\" class=\"d-block ml-3\"><img alt=\"#\" src=\"http://foodieweb.siswebapp.com/img/playmarket.png\" height=\"40\"></a>\n\t</p>\n </div>\n</section>"
+        },
+        "globalSettings": {
+            "theme_contrast": "light",
+            "theme_color": "primary",
+            "nav_color": "navbar-light bg-white",
+            "shortDescription": "Manage Mobile Application",
+            "web_panel_color": "#FF683A",
+            "admin_panel_color": "#ff683a",
+            "website_color": "#ff683a",
+            "store_panel_color": "#ff683a",
+            "favicon": "https://firebasestorage.googleapis.com/v0/b/foodies-3c1d9.appspot.com/o/images%2Ffoodie_fav_logo_1697010347136.png?alt=media&token=a79e6a32-40b5-46f4-b19c-e596c40998e1",
+            "meta_title": "Foodie - Your Food Delivery Partner",
+            "applicationName": "Foodie",
+            "appLogo": "https://firebasestorage.googleapis.com/v0/b/foodies-3c1d9.appspot.com/o/images%2Flogo_web_1701326914104.png?alt=media&token=b5e387ac-ad53-4f81-b8eb-ef1b37aa9998"
+        },
+        "googleMapKey": {
+            "placeHolderImage": "https://firebasestorage.googleapis.com/v0/b/foodies-3c1d9.appspot.com/o/images%2F110_PX_(1)2.jpg?alt=media&token=68e39976-0ae4-43a0-bee2-59dc93bfc40b",
+            "key": "AIzaSyBicErnm5MQhQ9TEC8PHfQoBxQZEdv7v40"
+        },
+        "home_page_theme": {
+            "theme": "theme_2"
+        },
+        "homepageTemplate": {
+            "homepageTemplate": "<div class=\"st-home-page-main\">\n\n\t<header class=\"section-header\">\n\n\t\t<section class=\"header-main\">\n\t\t\t<div class=\"container\">\n\t\t\t\t<div class=\"row align-items-center\">\n\t\t\t\t\t<div class=\"col-6\">\n\t\t\t\t\t\t<font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">&nbsp; &nbsp; &nbsp;</font></font><a href=\"https://foodieweb.siswebapp.com/\" class=\"brand-wrap mb-0\" id=\"logo_web\"></a><!--Alert: End --></div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</section>\n\t</header>\n\n\t<div class=\"st-home-page\">\n\n\t\t<div class=\"st-home-banner\">\n\n\t\t\t<div class=\"container-fluid\">\n\t\t\t\t<div class=\"row align-items-center m-0\">\n\t\t\t\t\t<div class=\"col-md-6 st-home-banner-left align-items-center\">\n\n\t\t\t\t\t\t<div class=\"st-home-banner-content\">\n\t\t\t\t\t\t\t<h1>Siempre estamo dispuestos</h1><h1>entregando artículos ecológicos</h1>\n\t\t\t\t\t\t\t<p><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">Foodie Los mas rápidos, los más serios, los mas guapos, lo mejor de Chile al alcance con tu móvil.\n\t\t\t\t\t\t\t</font></font></p>\n\t\t\t\t\t\t\t<div class=\"location-box\">\n\t\t\t\t\t\t\t\t<div class=\"location-group\">\n\t\t\t\t\t\t\t\t\t<!-- Alert: Do not change id=\"user_locationnew\" name here -->\n\t\t\t\t\t\t\t\t\t<input id=\"user_locationnew\" type=\"text\" placeholder=\"Escriba su ubicación\" autocomplete=\"off\" fdprocessedid=\"99nsgo\">\n\t\t\t\t\t\t\t\t\t<!--Alert: End -->\n\t\t\t\t\t\t\t\t\t<span class=\"locate-me\"><img src=\"https://foodieweb.siswebapp.com/img/locatleme-icon.png\"><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">Localización</font></font></span></div>\n\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t<div class=\"cont-btn mt-5\">\n\t\t\t\t\t\t\t\t<button type=\"button\" class=\"btn btn-primary btn-continue\" fdprocessedid=\"zgcmbi\"><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">\n\t\t\t\t\t\t\t\t\tContinuar</font></font></button></div>\n\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div class=\"col-md-6 st-home-banner-right p-0 text-center\">\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t</div>\n\n\t\t<section class=\"st-home-service\">\n\t\t\t<div class=\"container\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-md-4 px-3\">\n\t\t\t\t\t\t<div class=\"st-service-box text-center\">\n\t\t\t\t\t\t\t<img src=\"https://foodieweb.siswebapp.com/img/swift_delivery.png\">\n\t\t\t\t\t\t\t<h3 class=\"mt-4 mb-4 text-light\"><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">Entregas Rápidas</font></font></h3><p><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">Tão rápidos que parece vayamos encocados jajaja</font></font></p></div></div><div class=\"col-md-4 px-3\"><div class=\"st-service-box text-center\"><img src=\"https://foodieweb.siswebapp.com/img/order_online.png\">\n\t\t\t\t\t\t\t<h3 class=\"mt-4 mb-4 text-light\"><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">Pide Online</font></font></h3>\n\t\t\t\t\t\t\t<p><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">\n\t\t\t\t\t\t\t\tQuedate en casita que nosotros nos movemos por ti. </font><font style=\"vertical-align: inherit;\">(e seu dinheiro).\n\t\t\t\t\t\t\t</font></font></p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"col-md-4 px-3\">\n\t\t\t\t\t\t<div class=\"st-service-box text-center\">\n\t\t\t\t\t\t\t<img src=\"https://foodieweb.siswebapp.com/img/live+tracking.png\">\n\t\t\t\t\t\t\t<h3 class=\"mt-4 mb-4 text-light\"><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">Siga seu pedido</font></font></h3>\n\t\t\t\t\t\t\t<p><span style=\"text-align: left;\"><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">Você gosta de comprar? </font><font style=\"vertical-align: inherit;\">Acosanos!</font></font></span><br></p></div></div></div></div></section><section class=\"st-appstore\"><div class=\"container\"><div class=\"row align-items-center\"><div class=\"col-md-5 st-appstore-left align-items-center\">\n\t\t\t\t\t\t<p><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">É um ótimo momento para pedir sua comida favorita.</font></font></p>\n\t\t\t\t\t\t<p><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">Permita que os foodies peçam alimentos da sua loja com apenas alguns cliques no celular com a ajuda do Foodie App.</font></font></p>\n\t\t\t\t\t\t<div class=\"st-appstore-down\">\n\t\t\t\t\t\t\t<h4><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">Baixe Foodie App hoje!</font></font></h4>\n\t\t\t\t\t\t\t<a href=\"#\"><img alt=\"#\" src=\"https://foodieweb.siswebapp.com/img/appstore.png\" height=\"48\"></a>\n\t\t\t\t\t\t\t<a href=\"#\"><img alt=\"#\" src=\"https://foodieweb.siswebapp.com/img/playmarket.png\" height=\"48\"></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"col-md-7 st-appstore-right\">\n\t\t\t\t\t\t<img src=\"https://foodieweb.siswebapp.com/img/all_vendor.png\">\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\n\t\t</section>\n\n\t</div>\n\n</div>\n"
+        },
+        "languages": {
+            "list": [
+                {
+                    "is_rtl": false,
+                    "isActive": true,
+                    "title": "English",
+                    "slug": "en"
+                },
+                {
+                    "is_rtl": true,
+                    "isActive": true,
+                    "title": "Arabic",
+                    "slug": "ar"
+                },
+                {
+                    "is_rtl": false,
+                    "title": "Spanish",
+                    "isActive": true,
+                    "slug": "es"
+                }
+            ]
+        },
+        "payFastSettings": {
+            "return_url": "https://yourdomain.com/success",
+            "notify_url": "https://yourdomain.com/notify",
+            "cancel_url": "https://yourdomain.com/cancel",
+            "isSandbox": true,
+            "isEnable": true,
+            "merchant_id": "23101964",
+            "merchant_key": "3l9ocd4vdq5qj"
+        },
+        "payStack": {
+            "callbackURL": "https://yourdomain.com/success",
+            "isSandbox": true,
+            "webhookURL": "https://yourdomain.com/success",
+            "isEnable": true,
+            "publicKey": "",
+            "secretKey": ""
+        },
+        "payment": {
+            "default_tex": 10,
+            "currencyAtRight": false
+        },
+        "paypalSettings": {
+            "isEnabled": true,
+            "isLive": true,
+            "paypalAppId": "",
+            "paypalSecret": "",
+            "paypalClient": ""
+        },
+        "placeHolderImage": {
+            "image": "https://firebasestorage.googleapis.com/v0/b/foodies-3c1d9.appspot.com/o/images%2Ffoodie_fav_logo_1697010408879.png?alt=media&token=e77c5633-5133-42ea-8afd-699aada04127"
+        },
+        "privacyPolicy": {
+            "privacy_policy": ""
+        },
+        "razorpaySettings": {
+            "razorpayKey": "",
+            "razorpaySecret": "",
+            "isSandboxEnabled": false,
+            "isEnabled": true
+        },
+        "referral_amount": {
+            "referralAmount": "25"
+        },
+        "restaurant": {
+            "auto_approve_restaurant": true
+        },
+        "specialDiscountOffer": {
+            "isEnable": true
+        },
+        "story": {
+            "videoDuration": 30,
+            "isEnabled": true
+        },
+        "stripeSettings": {
+            "isSandboxEnabled": true,
+            "clientpublishableKey": "",
+            "stripeKey": "",
+            "stripeSecret": "",
+            "isEnabled": true
+        },
+        "termsAndConditions": {
+            "termsAndConditions": ""
+        },
+        "walletSettings": {
+            "isEnabled": true
+        }
+    }
+}
